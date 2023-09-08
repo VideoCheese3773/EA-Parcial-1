@@ -164,6 +164,7 @@ app.delete('/users/:id', (req, res) => {
 
 app.get('/users/counter', (req, res) => {
     let userList = []
+
     for (let i = 0; i < users.length; i++) {
         let characterCounter = 0
         let itemCounter = 0
